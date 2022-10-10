@@ -1,0 +1,22 @@
+{
+  "name": "test-cactus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higgins/test-cactus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higgins/test-cactus/issues"
+  },
+  "homepage": "https://github.com/higgins/test-cactus#readme",
+  "devDependencies": {
+    "git-cactus": "github:higgins/git-cactus"
+  }
+}
