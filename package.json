@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "release-minor": "npx git-cactus cut minor --master=main",
+    "release-patch": "npx git-cactus tag --master=main",
+    "release-major": "npx git-cactus cut major --master=main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
